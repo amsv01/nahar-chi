@@ -2,9 +2,7 @@ import { compose } from 'recompose';
 import { connect } from 'react-redux';
 
 const mapStateToProps = state => {
-	return {
-		todos: getVisibleTodos(state.todos, state.visibilityFilter)
-	};
+	return {};
 };​
 
 const AddMealContainer = compose(
