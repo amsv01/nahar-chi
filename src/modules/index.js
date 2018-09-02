@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
 import { meals } from './meals';
 
-export default combineReducers(
-	meals
-);
+const reducer = combineReducers({
+    meals
+});
+
+export default reducer;
