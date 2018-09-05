@@ -1,7 +1,5 @@
-import db from './db';
+// import all middleware here
 
-const middleware = [
-    db
-];
+const middleware = [];
 
 export default middleware;
